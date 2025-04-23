@@ -12,7 +12,6 @@ function App() {
       <HashRouter>
           <Route path="/" element={<Home />} />
           <Route path="/skills" element={<Skills />} />
-          <Route path="/DigsProfile" element={<DigsProfile />} />
           </HashRouter>
       </div>
     </>
