@@ -1,5 +1,5 @@
 {
-  "homepage": "http://DnlDigs.github.io/DigsProfile/dnlprofile",
+  "homepage": "http://DnlDigs.github.io/DigsProfile",
   "name": "dnlprofile",
   "private": true,
   "version": "0.0.0",
@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "start": "react-scripts start",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
